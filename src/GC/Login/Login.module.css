@@ -1,0 +1,58 @@
+.loginContainer{
+    height: 100%;
+    width: 100%;
+    margin-top:280px;
+
+}
+
+.loginBox{
+    width: 800px;
+    height: 332px;
+    margin: auto;
+    border-radius: 172px;
+    /* border: solid 1px #707070; */
+    background-image: linear-gradient(to bottom, #d87470, #d25454);
+    box-shadow: 0px 0px 15px #6b6b6b;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.loginBox button{
+    position: absolute;
+    bottom: -47px;
+    right: 3px;
+    height: 36px;
+    width: 67px;
+    font-size: 1rem;
+    color: #3a2c2c;
+    border: navajowhite;
+    outline: none;
+    border-radius: 3px;
+}
+
+.loginBox button:active{
+    background-color: #d5d5d5;
+}
+
+.seperator{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    height: 100%;
+    background-color: white;
+    width: 4px;
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid rgb(255, 198, 198);
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(248, 200, 200);
+    margin:0 0 0 20px;
+}

@@ -1,0 +1,17 @@
+.uploadBtn{
+    height: 35px;
+    width: 70px;
+    border: navajowhite;
+    outline: none;
+    background: none;
+    background-color: #a1a1a1;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.uploadBtn:active{
+    background-color: #797676;
+
+}

@@ -1,0 +1,241 @@
+.tableContainer{
+    overflow-x:auto;
+    width:100%;
+    height: auto;
+    max-height: 600px;
+    margin-top: 10px;
+    border: 1px solid rgba(0,0,0,.5);
+}
+
+.tableContainer::-webkit-scrollbar {
+    height: 10px;
+}
+.tableContainer::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.26); 
+}
+.tableContainer::-webkit-scrollbar-thumb {
+    background: rgb(243, 120, 120);
+}
+
+.tableContainer table{
+    border-collapse: collapse;
+    font-size: 1rem;
+    position: relative;
+}
+
+.tableContainer table thead tr {
+    /* background-color: rgb(243, 120, 120); */
+    color:#FFF;
+    text-align: left;
+    font-weight: bold;
+    box-shadow: 0px 1px 2px #000;
+}
+
+.tableContainer table th{
+    padding: 8px 25px;
+    /* border-right: 1px solid rgb(218, 202, 202); */
+    min-width: 5rem;
+    position: sticky;
+    top:0;
+    background-color: rgb(243, 120, 120);
+    /* box-shadow: 0px 2px 1px -1px #000; */
+    
+}
+.tableContainer table td{
+    padding: 8px 25px;
+    /* border: 1px solid  rgb(206, 206, 206); */
+    width: 200px;
+}
+
+.tableContainer table tbody tr{
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.116); */
+    color: rgb(92, 92, 92);
+    font-weight: 500;
+    
+}
+
+
+
+.tableContainer table tbody tr:nth-of-type(even){
+    background-color: rgb(255, 255, 255);
+}
+
+.tableContainer table tbody tr:nth-of-type(odd){
+    background-color: rgba(224, 224, 224);
+}
+.tableContainer table tbody tr:hover{
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.116); */
+    background-color: rgb(243, 120, 120);
+    color:white;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+/* .contentTable  tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.contentTable  tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+} */
+
+.tableContainer table td button{
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 16px;
+    -webkit-appearance:none;
+    border:none;
+    /* outline: none; */
+    height:25px;
+    width:75px;
+    margin-right: 5px;
+    font-size: 15px;
+    padding: 0 ;
+    background-color: rgb(243, 120, 120);
+    box-shadow: 1px 1px 3px #000;
+    outline:none;
+}
+.tableContainer table td button:active{
+background-color: rgb(184, 97, 97);
+}
+
+
+.paginationButton{
+    -webkit-appearance:none;
+    border:none;
+    /* outline: none; */
+    height:25px;
+    width:25px;
+    margin-right: 5px;
+    font-size: 15px;
+    color:rgb(206, 79, 79);
+    padding: 0 ;
+    font-weight: 700;
+    align-self: center;
+}
+.paginationButton:focus {
+     outline:none;
+}
+.paginationButton:hover {
+     border-radius: 2px;
+    background-color: rgb(243, 120, 120);
+    color: #fff;
+}
+.paginationButton:active {
+    background-color: rgb(184, 97, 97);
+}
+.activePage{
+    border-radius: 2px;
+    background-color: rgb(243, 120, 120);
+    color:#fff;
+    box-shadow: 1px 1px 4px #000;
+
+}
+
+.entriesContainer > span{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.entriesContainer > select{
+    height: calc(1.5em + 0.5rem + 2px);
+    width: 50px;
+    margin: 0 10px;
+    font-size: .8rem;
+    
+}
+
+
+.searchboxContainer > input{
+    outline: none;
+    border: 1px solid rgb(255, 198, 198);
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    width: 74%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(248, 200, 200);
+    margin-left: 10px;
+}
+
+.startEndBtn{
+ background-color: rgb(243, 120, 120); 
+ color: #fff; 
+ border-radius: 10px; 
+ font-size: .95rem; 
+ border: none; 
+ outline: none; 
+ font-weight: 700;
+ box-shadow: 1px 1px 4px #000;     
+}
+.startEndBtn:active{
+    background-color: rgb(184, 97, 97);
+}
+.selectedPage{
+    margin-left: 18px; 
+    background-color: rgb(243, 120, 120); 
+    color: #fff; 
+    padding: 2px 10px; 
+    border-radius: 5px; 
+    box-shadow: 1px 1px 3px #000
+}
+
+.paginationButtonContainer button[data-content="..."]{
+    -webkit-appearance: none;
+    border: none;
+    color: rgb(206, 79, 79);
+    font-size: 1.5rem;
+}
+
+.tableContainer td input{
+        height: 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #fbbcbc;
+    padding-left: 5px;
+}
+
+.addButton{
+        align-self: center;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: #f37778;
+    color: white;
+    height: 40px;
+    width: auto;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.messageCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 55%;
+    margin-left: 16%;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 6px;
+    height: 70px;
+    position: sticky;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    top:0px;
+}
+
+@media screen and (max-height: 938px){
+    .tableContainer{
+        max-height: 440px;
+    }
+}
+@media screen and (max-height: 800px){
+    .tableContainer{
+        max-height: 400px;
+    }
+}

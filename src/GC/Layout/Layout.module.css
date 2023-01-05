@@ -1,0 +1,22 @@
+.mainContentExpand{
+    transition: left .3s linear;
+    left: 5%;
+    width:90%;
+    
+}
+
+.mainContentShrink{
+    transition: left .3s linear;
+    left: 15%;
+    width:85%;
+}
+
+.mainContent{
+    position: fixed;
+    /* top: 5%; */
+    height: 94%;
+    overflow-y: scroll;
+}
+.mainContent::-webkit-scrollbar{
+    display: none;
+}

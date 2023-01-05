@@ -1,0 +1,5 @@
+{
+    "devConnectionString": "http://localhost:3000/sharpposapi/api",
+    "prodConnectionString": "http://ec2-15-206-236-148.ap-south-1.compute.amazonaws.com/sharpposapi/api",
+    "testConnectionString": ""
+}

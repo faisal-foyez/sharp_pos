@@ -1,0 +1,30 @@
+.message_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 55%;
+    margin-left: 16%;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 6px;
+    height: 70px;
+    position: fixed;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 1000000;
+}
+
+.form{
+    display: flex;
+    flex-flow: wrap;
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .form{
+        flex-direction: column;
+        width:100%;
+    }
+}
